@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ascon-c\crypto_aead\asconaead128\opt64\aead.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ascon-c\crypto_aead\asconaead128\opt64\permutations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ascon-c\crypto_aead\asconaead128\opt64\printstate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Simon_Speck_Ciphers-master\C\simon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Simon_Speck_Ciphers-master\C\speck.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny-AES-c-master\aes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="present-master\src\assert.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="present-master\src\present.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ascon-c\crypto_aead\asconaead128\opt64\api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ascon-c\crypto_aead\asconaead128\opt64\ascon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ascon-c\crypto_aead\asconaead128\opt64\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ascon-c\crypto_aead\asconaead128\opt64\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ascon-c\crypto_aead\asconaead128\opt64\forceinline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ascon-c\crypto_aead\asconaead128\opt64\lendian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ascon-c\crypto_aead\asconaead128\opt64\permutations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ascon-c\crypto_aead\asconaead128\opt64\round.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ascon-c\crypto_aead\asconaead128\opt64\word.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="present-master\include\assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="present-master\include\id.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="present-master\include\macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="present-master\include\present.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Simon_Speck_Ciphers-master\C\cipher_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Simon_Speck_Ciphers-master\C\simon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Simon_Speck_Ciphers-master\C\speck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny-AES-c-master\aes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
